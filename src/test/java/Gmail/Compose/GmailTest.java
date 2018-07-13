@@ -5,7 +5,6 @@ import org.testng.annotations.BeforeTest;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterTest;
 
 public class GmailTest {
   WebDriver driver;
@@ -35,11 +34,6 @@ public class GmailTest {
 	  Runtime.getRuntime().exec("D:\\Selenium1211\\Scripts\\Gmail.exe");
 	  Thread.sleep(15000);
 	  driver.findElement(By.xpath("//div[text()='Send']")).click();
-	  
-  }
-
-  @AfterTest
-  public void Logout() {
 	  
   }
 
