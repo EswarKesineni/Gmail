@@ -1,0 +1,5 @@
+2018-07-14 15:55:40,959 [main] INFO LoggerTest - Browser Starting
+2018-07-14 15:56:21,192 [main] INFO LoggerTest - Browser Starting
+2018-07-14 15:56:50,439 [main] INFO LoggerTest - The Url Launched
+2018-07-14 15:56:51,953 [main] INFO LoggerTest - The Browser Maximized
+2018-07-14 15:56:53,016 [main] INFO LoggerTest - The Browser Has Exited

@@ -2,24 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="58521" started-at="2018-07-13T10:43:59Z" finished-at="2018-07-13T10:44:57Z">
+  <suite name="Default suite" duration-ms="40169" started-at="2018-07-14T10:26:12Z" finished-at="2018-07-14T10:26:53Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="58521" started-at="2018-07-13T10:43:59Z" finished-at="2018-07-13T10:44:57Z">
-      <class name="Gmail.Compose.GmailTest">
-        <test-method status="PASS" signature="Browser()[pri:0, instance:Gmail.Compose.GmailTest@5792a0]" name="Browser" is-config="true" duration-ms="16" started-at="2018-07-13T10:43:59Z" finished-at="2018-07-13T10:43:59Z">
+    <test name="Default test" duration-ms="40169" started-at="2018-07-14T10:26:12Z" finished-at="2018-07-14T10:26:53Z">
+      <class name="Gmail.Compose.LoggerTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Gmail.Compose.LoggerTest@93dd95]" name="beforeTest" is-config="true" duration-ms="31" started-at="2018-07-14T10:26:12Z" finished-at="2018-07-14T10:26:12Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Browser -->
-        <test-method status="PASS" signature="Gmail()[pri:0, instance:Gmail.Compose.GmailTest@5792a0]" name="Gmail" duration-ms="58469" started-at="2018-07-13T10:43:59Z" finished-at="2018-07-13T10:44:57Z">
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="Logger()[pri:0, instance:Gmail.Compose.LoggerTest@93dd95]" name="Logger" duration-ms="40103" started-at="2018-07-14T10:26:12Z" finished-at="2018-07-14T10:26:53Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Gmail -->
-        <test-method status="PASS" signature="Logout()[pri:0, instance:Gmail.Compose.GmailTest@5792a0]" name="Logout" is-config="true" duration-ms="1" started-at="2018-07-13T10:44:57Z" finished-at="2018-07-13T10:44:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Logout -->
-      </class> <!-- Gmail.Compose.GmailTest -->
+        </test-method> <!-- Logger -->
+      </class> <!-- Gmail.Compose.LoggerTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
